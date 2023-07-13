@@ -1,0 +1,48 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+
+body{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	background: rgb(113,70,181);
+}
+
+.contenedor{
+	width: 100vh;
+	max-width: 600px;
+	border-radius: 20px;
+	box-shadow: 1px 1px 3px black;
+	background: white;
+}
+
+.contenedor-interno{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+	flex-direction: column;
+	margin: 40px 30px 40px 30px;
+}
+
+label{
+	font-weight: bold;
+	font-size: 18px;
+	margin-bottom: 10px;
+}
+
+.rango{
+	font-weight: bold;
+	font-size: 20px;
+	margin-top: 10px;
+}
+
+input{
+	width: 450px;
+	outline: none;
+}
